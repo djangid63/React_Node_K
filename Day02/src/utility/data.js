@@ -1,10 +1,46 @@
 const products = [
-  { id: 1, name: "Laptop", price: 75000, productDesc: "Laptop with", image: "https://plus.unsplash.com/premium_photo-1676009547155-32d75ba9d089?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " },
-  { id: 2, name: "Headphones", price: 2000, productDesc: "", image: "https://unsplash.com/photos/denon-headphones-on-amplifier-J80xTgXEWLI" },
-  { id: 3, name: "Smartphone", price: 50000, productDesc: "", image: "https://unsplash.com/photos/a-white-cell-phone-sitting-on-top-of-a-pink-and-blue-background-0ej0jMwPFhQ" },
-  { id: 4, name: "mouse", price: 15000, productDesc: "", image: "https://unsplash.com/photos/black-flat-screen-computer-monitor-beside-white-computer-keyboard-Hpaq-kBcYHk" },
-  { id: 5, name: "Camera", price: 35000, productDesc: "", image: "https://unsplash.com/photos/shallow-focus-photography-of-black-and-gray-dslr-camera-xKZkjXcZc3s" },
-  { id: 6, name: "Printer", price: 10000, productDesc: "", image: "https://unsplash.com/photos/white-printer-1v6J1g1f5QI" },
+  {
+    id: 1,
+    name: "Laptop",
+    price: 75000,
+    productDesc: "Laptop with high performance and sleek design, ideal for gaming and work.",
+    image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 2,
+    name: "Headphones",
+    price: 2000,
+    productDesc: "Wireless headphones with noise-canceling technology for immersive sound experience.",
+    image: "https://images.unsplash.com/photo-1520170350707-b2da59970118?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 3,
+    name: "Smartphone",
+    price: 50000,
+    productDesc: "Latest smartphone with powerful performance, excellent camera, and a high-resolution display.",
+    image: "https://images.unsplash.com/photo-1523371683773-affcb4a2e39e?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 4,
+    name: "PC",
+    price: 15000,
+    productDesc: "A budget-friendly PC with solid performance for everyday computing tasks.",
+    image: "https://plus.unsplash.com/premium_photo-1678565546661-bf43274dd428?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 5,
+    name: "Camera",
+    price: 35000,
+    productDesc: "High-quality digital camera with professional-grade features for photography enthusiasts.",
+    image: "https://images.unsplash.com/photo-1515519128511-cbd81859fa91?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 6,
+    name: "Graphic Card",
+    price: 10000,
+    productDesc: "High-performance graphic card for gaming and video editing.",
+    image: "https://images.unsplash.com/photo-1650526565103-20462d622488?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
 ];
 
 export default products;

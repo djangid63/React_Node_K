@@ -1,18 +1,18 @@
 import React from 'react'
 
-const CardComponents = ({ product }) => {
+const CardComponents = ({ items }) => {
   return (
     <>
-      {product.map((product) => (
-        <div className="w-72 h-[100%] m-2 p-4 bg-slate-500 rounded-xl">
-          <h1 className="text-center">
-            {product.name}
+      {items.map((items) => (
+        <div className="  w-72 h-[100%] m-2 p-4 bg-slate-700 rounded-xl">
+          <h1 className=" m-2 text-center  text-indigo-100">
+            {items.name}
           </h1>
-          <img className=" rounded-xl w-60 m-1 bg-contain" src={product.image} alt='Img' />
-          <p className='m-1'>This is a DSLR camera, which comes with 999 pixcel lens can view the mars atmosphere from earth</p>
-          <div className="flex justify-between">
-            <button className="bg-slate-300">Add</button>
-            <button>Remove</button>
+          <img className="h-72 mx-auto rounded-xl w-60 bg-contain" src={items.image} alt='Img' />
+          <p className='m-2 text-indigo-100'>This is a DSLR camera, which comes with 999 pixcel lens can view the mars atmosphere from earth</p>
+          <div className="flex justify-between m-1">
+            <button className="bg-slate-400  p-2 w-[155px] rounded-xl">Add</button>
+            <button className="bg-slate-500  p-2 rounded-xl" >Remove</button>
           </div>
         </div>
       ))}

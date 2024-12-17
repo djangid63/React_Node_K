@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <div className="flex flex-wrap">
-        <CardComponents product={products} />
+        <CardComponents items={products} />
       </div>
     </>
   )
