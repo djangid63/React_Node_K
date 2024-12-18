@@ -4,7 +4,7 @@ import CardComponents from './components/CardComponents'
 
 function App() {
   return (
-    <div className='flex flex-wrap text-center'>
+    <div className='flex flex-wrap text-center m-4'>
       <CardComponents items={contacts} />
     </div>
   )
