@@ -3,9 +3,9 @@ import categories from './../utility/data';
 
 const CardComponents = ({ categories }) => {
   return (
-    <div className=' flex flex-col gap-8 bg-slate-200 p-8 justify-center items-center'>
+    <>
       {categories.map((val) => (
-        <div className='w-80 h-52 flex hover:shadow-red-300 hover:shadow-2xl rounded-2xl text-slate-200'>
+        <div className='w-80 h-52 flex  mb-3 hover:shadow-red-300 hover:shadow-2xl rounded-2xl text-slate-200'>
           <div className=' w-48 h-50'>
             <img className='w-full h-full rounded-l-2xl' src='https://i.pinimg.com/originals/a1/f8/87/a1f88733921c820db477d054fe96afbb.jpg' alt='Book'></img>
           </div>
@@ -18,7 +18,7 @@ const CardComponents = ({ categories }) => {
           </div>
         </div>
       ))}
-    </div>
+    </ >
   )
 }
 
