@@ -3,7 +3,7 @@ import categories from './../utility/data';
 
 const CardComponents = ({ categories }) => {
   return (
-    <div className='flex flex-col gap-8 bg-slate-200 p-8 justify-center items-center'>
+    <div className=' flex flex-col gap-8 bg-slate-200 p-8 justify-center items-center'>
       {categories.map((val) => (
         <div className='w-80 h-52 flex hover:shadow-red-300 hover:shadow-2xl rounded-2xl text-slate-200'>
           <div className=' w-48 h-50'>

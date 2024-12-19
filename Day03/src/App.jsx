@@ -4,7 +4,7 @@ import CardComponents from './components/CardComponents'
 
 function App() {
   return (
-    <div>
+    <div className='' >
 
       <CardComponents categories={categories} />
 
