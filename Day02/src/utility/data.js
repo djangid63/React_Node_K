@@ -27,20 +27,6 @@ const products = [
     productDesc: "A budget-friendly PC with solid performance for everyday computing tasks.",
     image: "https://plus.unsplash.com/premium_photo-1678565546661-bf43274dd428?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
-  {
-    id: 5,
-    name: "Camera",
-    price: 35000,
-    productDesc: "High-quality digital camera with professional-grade features for photography enthusiasts.",
-    image: "https://images.unsplash.com/photo-1515519128511-cbd81859fa91?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    id: 6,
-    name: "Graphic Card",
-    price: 10000,
-    productDesc: "High-performance graphic card for gaming and video editing.",
-    image: "https://images.unsplash.com/photo-1650526565103-20462d622488?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
 ];
 
 export default products;

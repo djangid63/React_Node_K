@@ -1,6 +1,8 @@
 import React from 'react'
 import products from './../utility/data';
 const CardComponents = ({ product }) => {
+
+  
   return (
     <div className='w-[50%] h-[70%] bg-slate-200 gap-20  p-10 rounded-b-3xl grid grid-cols-2'>
       <div className='flex gap-5 justify-start'>
