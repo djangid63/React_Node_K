@@ -121,6 +121,12 @@ const productData = [
         "productReview": "Comfortable earbuds with good sound quality. They could have a longer battery life.",
         "dateOfReview": "2024-12-10"
       }
+      {
+        "userId": 108,
+        "username": "john_doe",
+        "productReview": "Comfortable earbuds with good sound quality. They could have a longer battery life.",
+        "dateOfReview": "2024-12-10"
+      }
     ]
   }
 ];

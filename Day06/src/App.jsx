@@ -1,11 +1,11 @@
 import React from 'react'
+import productData from './utility/data'
 
 function App() {
-  return (
-    <div>   <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1></div>
-  )
+  return {
+      
+
+}
 }
 
 export default App
