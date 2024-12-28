@@ -1,5 +1,4 @@
 import React from 'react'
-import contacts from './../utility/data';
 
 const CardComponents = ({ items }) => {
   return (

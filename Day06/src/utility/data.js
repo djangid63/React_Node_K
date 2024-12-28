@@ -4,6 +4,7 @@ const productData = [
     "productName": "Smartphone XYZ",
     "productDescription": "A high-performance smartphone with a sleek design.",
     "productColor": ["Black", "Silver", "Gold"],
+    "icon": "SlScreenSmartphone",
     "productReviews": [
       {
         "userId": 101,
@@ -24,6 +25,7 @@ const productData = [
     "productName": "Laptop ABC",
     "productDescription": "A lightweight laptop with a powerful processor for work and play.",
     "productColor": ["Gray", "Blue", "Red"],
+    "icon": "IoLaptopOutline",
     "productReviews": [
       {
         "userId": 103,
@@ -50,6 +52,7 @@ const productData = [
     "productName": "Wireless Headphones",
     "productDescription": "Noise-canceling wireless headphones with deep bass.",
     "productColor": ["White", "Black"],
+    "icon": "ImHeadphones",
     "productReviews": [
       {
         "userId": 106,
@@ -76,6 +79,7 @@ const productData = [
     "productName": "Smartwatch Pro",
     "productDescription": "A feature-packed smartwatch with fitness tracking and notifications.",
     "productColor": ["Black", "Blue", "Silver"],
+    "icon": "BsSmartwatch",
     "productReviews": [
       {
         "userId": 108,
@@ -102,6 +106,7 @@ const productData = [
     "productName": "Wireless Earbuds",
     "productDescription": "Compact and comfortable wireless earbuds with superior sound quality.",
     "productColor": ["Black", "White"],
+    "icon": "BsEarbuds",
     "productReviews": [
       {
         "userId": 110,
@@ -120,7 +125,7 @@ const productData = [
         "username": "john_doe",
         "productReview": "Comfortable earbuds with good sound quality. They could have a longer battery life.",
         "dateOfReview": "2024-12-10"
-      }
+      },
       {
         "userId": 108,
         "username": "john_doe",
