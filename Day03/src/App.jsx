@@ -4,9 +4,13 @@ import CardComponents from './components/CardComponents'
 
 function App() {
   return (
-    <div className='h-screen w-full grid grid-rows-2 grid-cols-[25%,0%] p-10  bg-slate-900 container mx-auto' >
+    <div
+      className={`
+        h-screen w-screen grid grid-rows-3 grid-cols-3
+        bg-slate-900 container items-center justify-center justify-items-center
+      `}
+    >
       <CardComponents categories={categories} />
-
     </div>
   )
 }
