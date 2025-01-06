@@ -12,7 +12,7 @@ const CardComponents = ({ product }) => {
           <img className='w-32 h-32 mx-4 rounded-full object-cover' src='https://media.istockphoto.com/id/1975058884/vector/modern-abstract-blue-pink-and-purple-gradient-circle-line-on-dark-black-background-design.jpg?s=2048x2048&w=is&k=20&c=aL4cf6InXpsZwm3-CNnS5JJE-QoIbXQvOyNTl-DMMT0=' ></img>
         </div>
         <div className=''>
-          <img className='w-32 h-32 rounded-full object-cover' src='https://media.istockphoto.com/id/845844160/vector/poster-of-the-vinyl-record-vector-illustration-on-dark-background.jpg?s=1024x1024&w=is&k=20&c=Y11nqKc1moU_w7J_IvPoe56MDlhJ4MPdn7DHT2FiM9A=' ></img>
+          <img className='w-32 h-32 rounded-full object-cover' src='https://media.istockphoto.com/id/845844160/vector/poster-of-the-vinyl-record-vector-illustration-on-dark-background.jpg?s=1024x1024&w=is&k=20&0c=Y11nqKc1moU_w7J_IvPoe56MDlhJ4MPdn7DHT2FiM9A=' ></img>
           <img className='w-32 h-32 my-8  rounded-full object-cover' src='https://media.istockphoto.com/id/1206894561/photo/headphones-with-vinyl-record-80s-synth-wave-and-retrowave-glowing-circle-futuristic.jpg?s=2048x2048&w=is&k=20&c=tPpBLC2fUFamF-Ubmr3xbJbFTUVAmiBxGYCxhqYQu4A=' ></img>
           <img className='w-32 h-32 rounded-full object-cover' src='https://media.istockphoto.com/id/183680582/vector/vinyl-record-vector.jpg?s=2048x2048&w=is&k=20&c=Eh39Nt2l-5ix1kAEGLoL0-qe6BQAUe-WuXqoooBRLQo=' ></img>
         </div>
