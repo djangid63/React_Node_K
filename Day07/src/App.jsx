@@ -1,13 +1,10 @@
 import React from 'react'
+import Card from './components/card'
 
 function App() {
   return (
-    <div> 
-
-    <h1 className="text-xl font-bold underline">
-     Hello world!
-    </h1>
-
+    <div>
+      <Card />
     </div>
   )
 }

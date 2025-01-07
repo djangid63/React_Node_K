@@ -4,7 +4,6 @@ import logo from '../images/extractimages_12232024_91638.jpeg';
 function App() {
   return (
     <div className="w-screen h-screen flex justify-center items-center relative overflow-hidden">
-      {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${logo})` }}
