@@ -3,7 +3,7 @@ import Card from './components/card'
 
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Card />
     </div>
   )
