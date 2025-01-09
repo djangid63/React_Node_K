@@ -8,17 +8,34 @@ const data = [
 ];
 
 const Card = () => {
-  const [count, setCount] = useState(Array(data.length).fill(0));
+  // const [count, setCount] = useState(Array(data.length).fill(0));
+  const [count, setCount] = useState({});
 
   const increment = (index) => {
-    setCount((prevCount) => prevCount.map((item, i) => i === index ? (item < 5 ? item + 1 : 5) : item));
+    // setCount((prevCount) => prevCount.map((item, i) => i === index ? (item < 5 ? item + 1 : 5) : item));
+    setCount((prevCount) => ({
+      ...prevCount,
+      // [index]: (prevCount[index] ? (prevCount[index] == 5 ? 5 : prevCount[index] + 1) : 1)
+      [index]: (prevCount[index] || 0) < 5 ? (prevCount[index] || 0) + 1 : 5
+    }))
   };
 
   const decrement = (index) => {
-    setCount((prevCount) => prevCount.map((item, i) => i === index ? (item > 0 ? item - 1 : 0) : item));
+    // setCount((prevCount) => prevCount.map((item, i) => i === index ? (item > 0 ? item - 1 : 0) : item));
+    setCount((prevCount) => (
+      {
+        ...prevCount,
+        [index]: prevCount[index] > 0 ? prevCount[index] - 1 : 0ID submit. Something that 280 something. 98. The Movie. Depression. Nikhil. Nikhil. Hey, Cortana. Text message. I. Nokia. 
+      }
+    ))
+
   };
 
-  let totalPrice = count.reduce((acc, curr, index) => acc + curr * data[index].price, 0);
+  let totalPrice = 0;
+  for (let i = 0; i < data.length; i++) {
+    totalPrice += (count[i] || 0) * data[i].price;  
+  }Hey, Cortana. 
+
 
   return (
     <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center py-8">
@@ -43,7 +60,7 @@ const Card = () => {
               >
                 -
               </button>
-              <span className="text-lg font-semibold">{count[index]}</span>
+              <span className="text-lg font-semibold">{count[index] || 0}</span>
               <button
                 className="px-3 py-1 bg-green-500 text-white rounded-full focus:outline-none hover:bg-green-600"
                 onClick={() => increment(index)}
