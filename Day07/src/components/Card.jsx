@@ -13,29 +13,39 @@ const Card = () => {
 
   const increment = (index) => {
     // setCount((prevCount) => prevCount.map((item, i) => i === index ? (item < 5 ? item + 1 : 5) : item));
-    setCount((prevCount) => ({
-      ...prevCount,
-      // [index]: (prevCount[index] ? (prevCount[index] == 5 ? 5 : prevCount[index] + 1) : 1)
-      [index]: (prevCount[index] || 0) < 5 ? (prevCount[index] || 0) + 1 : 5
-    }))
+    setCount((prevCount) => {
+
+      if (prevCount[index] >= 5) return prevCount;
+
+      return {
+        ...prevCount,
+        // [index]: (prevCount[index] ? (prevCount[index] == 5 ? 5 : prevCount[index] + 1) : 1)
+        // [index]: (prevCount[index] || 0) < 5 ? (prevCount[index] || 0) + 1 : 5
+
+        [index]: (prevCount[index] + 1 || 0),
+      }
+
+    })
   };
 
   const decrement = (index) => {
     // setCount((prevCount) => prevCount.map((item, i) => i === index ? (item > 0 ? item - 1 : 0) : item));
-    setCount((prevCount) => (
-      {
+    setCount((prevCount) => {
+      if (prevCount[index] <= 0) return prevCount;
+      return {
         ...prevCount,
-        [index]: prevCount[index] > 0 ? prevCount[index] - 1 : 0ID submit. Something that 280 something. 98. The Movie. Depression. Nikhil. Nikhil. Hey, Cortana. Text message. I. Nokia. 
+        [index]: (prevCount[index] - 1 || 0)
+
       }
-    ))
+    }
+    )
 
   };
 
   let totalPrice = 0;
   for (let i = 0; i < data.length; i++) {
-    totalPrice += (count[i] || 0) * data[i].price;  
-  }Hey, Cortana. 
-
+    totalPrice += (count[i] || 0) * data[i].price;
+  }
 
   return (
     <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center py-8">
@@ -68,7 +78,7 @@ const Card = () => {
                 +
               </button>
             </div>
-            <p className="text-lg font-bold w-40 text-right">Total: ${item.price * count[index]}</p>
+            <p className="text-lg font-bold w-40 text-right">Total: ${item.price * count[index] || 0}</p>
           </div>
         ))}
       </div>
