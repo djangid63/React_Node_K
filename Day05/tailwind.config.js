@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        leftNav: ["Montserrat", "serif"]
+        leftNav: ["Montserrat", "serif"],
+        mainHead: ["Cormorant Garamond", "serif"]
       },
     },
   },

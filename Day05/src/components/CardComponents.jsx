@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/extractimages_12232024_91638.jpeg';
+import { AiOutlineSearch, AiOutlineShopping } from "react-icons/ai";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <div className="w-full flex justify-between items-center px-32 py-4">
           {/* Left Navigation */}
           <ul className="flex font-leftNav font-semibold space-x-4">
-            <li className="hover:underline cursor-pointer font-sans">Home</li>
+            <li className="hover:underline cursor-pointer font-leftNav">Home</li>
             <li className="hover:underline cursor-pointer">Shop</li>
             <li className="hover:underline cursor-pointer">About Us</li>
             <li className="hover:underline cursor-pointer">Contact Us</li>
@@ -26,20 +27,21 @@ function App() {
 
           {/* Middle Brand */}
           <div className="text-center mr-60 ">
-            <div className="text-xl font-thin font-mono">DJAN+</div>
-            <div className="text-sm">Wardrobe</div>
+            <div className="text-xl font-thin font-mono">
+              <img src="https://websitedemos.net/clothing-store-02/wp-content/uploads/sites/1447/2024/03/logo-01.svg" alt="logo" className="w-18 h-18 inline-block" />
+            </div>
           </div>
 
           {/* Right Icons */}
           <div className="flex space-x-4">
-            <div className="cursor-pointer">Icon</div>
-            <div className="cursor-pointer">Icon</div>
+            <div className="cursor-pointer"><AiOutlineSearch className='h-6 w-6' /></div>
+            <div className="cursor-pointer"><AiOutlineShopping className='h-6 w-6' /></div>
           </div>
         </div>
 
         {/* Welcome Message */}
-        <div className="flex-grow flex justify-center items-center">
-          <h1 className="text-4xl font-bold">Welcome to My App</h1>
+        <div className="flex-grow flex justify-center items-center font-mainHead">
+          <h1 className="text-6xl font-bold italic">Effortlessly blend comfort & style!</h1>
         </div>
       </div>
     </div>
