@@ -1,11 +1,12 @@
-import React from 'react'
-import CardComponents from './components/CardComponents.jsx'
-
+import React from "react";
+import HeroSection from "./components/HeroSection.jsx";
 
 function App() {
   return (
-    <div> <CardComponents></CardComponents>  </div>
-  )
+    <div>
+      <HeroSection />
+    </div>
+  );
 }
 
-export default App
+export default App;
