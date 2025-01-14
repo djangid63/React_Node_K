@@ -1,19 +1,21 @@
 import React from 'react'
-
-const NewProductCard = () => {
-  const [products, setProducts] = useState(productData);
+import { useState } from 'react'
+const NewProductCard = ({ newProductData }) => {
+  const [products, setProducts] = useState(newProductData);
 
   const handleProductPrice = (size, index) => {
     setProducts((prevProducts) => {
+      const xsPrice = "145 - 150";
       return prevProducts.map((product, i) =>
         i === index
           ? {
             ...product,
-            price: size === "XS" ? "145 - 150" : 155,
+            price: size === "XS" ? xsPrice : 165,
           }
           : product
       )
     });
+
   };
   return (
     <div className="w-[100%] h-[100%] lg:px-32 py-32 bg-white">

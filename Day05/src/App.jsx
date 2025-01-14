@@ -6,6 +6,8 @@ import newProductData from "./Data/NewProduct.jsx";
 import BagSection from "./components/ProductSection/BagSection.jsx";
 import BlazerSection from './components/ProductSection/BlazerSection';
 import ReinventedSection from "./components/ProductSection/ReinventedSection.jsx";
+import NewProductCard from "./components/ProductSection/NewProductCard.jsx";
+import ReviewSection from "./components/ReviewSection/ReviewSection.jsx";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <BagSection />
       <BlazerSection />
       <ReinventedSection />
+      <NewProductCard newProductData={newProductData} />
+      <ReviewSection />
     </div>
   );
 }
