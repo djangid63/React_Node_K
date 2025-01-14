@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/extractimages_12232024_91638.jpeg";
+import logo from "../../images/BgImages/HeroBgImg.jpeg";
 import {
   AiOutlineSearch,
   AiOutlineShopping,
@@ -11,7 +11,12 @@ function App() {
     <div className="relative flex items-center justify-center w-screen h-screen overflow-hidden">
       <div
         className="absolute inset-0 bg-center bg-cover"
-        style={{ backgroundImage: `url(${logo})` }}
+        style={{
+          backgroundImage: `url(${logo})`,
+          backgroundAttachment: 'fixed',
+        }}
+        role="img"
+        aria-label="Hero Background"
       ></div>
 
       {/*Overlay */}
@@ -58,7 +63,7 @@ function App() {
             <p className="clear-both text-white font-mont font-semibold text-[12px] tracking-[2px] leading-[13.75px] break-words uppercase">
               Casual & Everyday
             </p>
-            <h1 className="md:text-[84px] text-4xl font-bold italic break-words text-center font-mainHead leading-none mb-6">
+            <h1 className="md:text-[76px] text-4xl font-bold italic break-words text-center font-mainHead leading-none mb-6">
               Effortlessly Blend Comfort & Style!
             </h1>
             <p className="font-mont text-[8px] md:text-[16px] font-semibold text-center mb-4">
