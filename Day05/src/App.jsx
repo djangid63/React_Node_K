@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
-import ProductCard1 from "./components/ProductSection/ProductCard1.jsx";
+import ProductCard1 from "./components/ProductSection/PopularProduct.jsx";
 import productData from "./Data/Data";
 import newProductData from "./Data/NewProduct.jsx";
 import BagSection from "./components/ProductSection/BagSection.jsx";
@@ -8,6 +8,7 @@ import BlazerSection from './components/ProductSection/BlazerSection';
 import ReinventedSection from "./components/ProductSection/ReinventedSection.jsx";
 import NewProductCard from "./components/ProductSection/NewProductCard.jsx";
 import ReviewSection from "./components/ReviewSection/ReviewSection.jsx";
+import FeaturesSection from "./components/ReviewSection/featuresSection.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ReinventedSection />
       <NewProductCard newProductData={newProductData} />
       <ReviewSection />
+      <FeaturesSection />
     </div>
   );
 }
