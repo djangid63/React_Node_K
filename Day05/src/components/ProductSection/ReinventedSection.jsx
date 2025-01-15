@@ -8,8 +8,11 @@ const ReinventedSection = () => {
     <div className='w-screen md:h-[105vh] h-[70vh] relative'>
       <div className='absolute w-[100%] h-[100%] bg-top bg-cover' style={{ backgroundImage: `url(${reinventedBgImg})`, backgroundAttachment: 'fixed' }} ></div>
 
-      <div className='absolute inset-0 bg-black bg-opacity-50'></div>
-
+      <div className='absolute inset-0 '
+        style={{
+          background: 'linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1))'
+        }}
+      ></div>
       <div className='absolute z-20 -top-24 md:left-[170px] flex flex-col items-center md:items-start justify-center text-white w-[100%] h-[100%]'>
         <div>
           <img className='md:w-[516px] w-[300px] h-auto mb-5' src={reinventedModel} />
@@ -27,7 +30,6 @@ const ReinventedSection = () => {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   )
 }

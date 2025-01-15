@@ -5,10 +5,7 @@ import CardComponents from './components/CardComponents'
 function App() {
   return (
     <div
-      className={`
-        h-screen w-screen grid grid-rows-3 grid-cols-3
-        bg-slate-900 container items-center justify-center justify-items-center
-      `}
+      className='w-[100vw] h-[100vh] flex flex-wrap justify-center items-center gap-5 p-5 bg-slate-900'
     >
       <CardComponents categories={categories} />
     </div>

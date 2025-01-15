@@ -9,6 +9,8 @@ import ReinventedSection from "./components/ProductSection/ReinventedSection.jsx
 import NewProductCard from "./components/ProductSection/NewProductCard.jsx";
 import ReviewSection from "./components/ReviewSection/ReviewSection.jsx";
 import FeaturesSection from "./components/ReviewSection/featuresSection.jsx";
+import ExploreSection from "./components/ExploreSection/ExploreSection.jsx";
+import FooterSection from "./components/ExploreSection/FotterSection.jsx";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <NewProductCard newProductData={newProductData} />
       <ReviewSection />
       <FeaturesSection />
+      <ExploreSection />
+      <FooterSection />
     </div>
   );
 }
