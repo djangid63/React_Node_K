@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="relative flex items-center justify-center w-screen h-screen overflow-hidden">
       <div
-        className="absolute inset-0 bg-center bg-cover"
+        className="absolute inset-0 bg-center bg-cover "
         style={{
           backgroundImage: `url(${logo})`,
           backgroundAttachment: 'fixed',

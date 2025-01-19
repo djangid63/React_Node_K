@@ -45,7 +45,7 @@ const FooterSection = () => {
         </div>
       </div>
 
-      <div>
+      <div className=''>
         <div className='w-full h-[0.5px] bg-gray-400 opacity-50'></div>
         <div className='text-center mx-4 my-10 font-semibold font-mont text-gray-400'>Copyright © 2025 Clothing Store | Powered by Clothing Store</div>
       </div>

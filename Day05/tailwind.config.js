@@ -9,9 +9,6 @@ export default {
       },
     },
   },
-  variants: {
-    fill: ['responsive', 'hover', 'focus'], // Ensure fill and stroke are included
-    stroke: ['responsive', 'hover', 'focus'],
-  },
+
   plugins: [],
 };

@@ -1,6 +1,5 @@
 import React from 'react'
 import reviewBgImg from '../../images/BgImages/ReviewBgImg.jpeg'
-import starSvg from '../../images/Icons/Star.svg'
 import { AiFillStar } from "react-icons/ai";
 
 const ReviewSection = () => {
