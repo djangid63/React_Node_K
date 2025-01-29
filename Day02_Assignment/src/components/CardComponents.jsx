@@ -51,7 +51,7 @@ const CardComponents = ({ items }) => {
           </div>
         ))
       ) : items.map(() => (
-        <div 
+        <div
           className='flex flex-col cursor-pointer hover:shadow-red-800 shadow-2xl font-sans-serif items-center justify-center w-[100vw] h-auto m-2 p-6  bg-slate-700 rounded-2xl text-white overflow-x-hidden animate-pulse' >
           <img
             className='w-32 h-32 object-cover rounded-full border-4 border-white bg-gray-400'
