@@ -4,7 +4,7 @@ import CardComponents from './components/CardComponents'
 
 function App() {
   return (
-    <div className='flex flex-wrap h-screen w-full text-center gap-3 bg-gradient-to-t from-slate-900 to-slate-800'>
+    <div className='overflow-x-hidden'>
       <CardComponents items={contacts} />
     </div>
   )
